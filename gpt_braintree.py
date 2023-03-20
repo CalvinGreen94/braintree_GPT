@@ -262,7 +262,7 @@ cors = CORS(app, resources={r"/*": {"origins": ["http://yappolafranc.herokuapp.c
 
 app.config['BOOTSTRAP_BTN_STYLE'] = 'primary'  # default to 'secondary'
 # app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = 'lumen'
-app.secret_key = 'regurgitationA maximation'
+app.secret_key = 'ENTER APP KEY'
 
 # engine = pyttsx3.init('sapi5')
 # voices = engine.getProperty('voices')
