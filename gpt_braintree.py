@@ -620,7 +620,7 @@ def address():
             {'data': user}
         ))
     except BadRequest:
-        flash('Email already exists')
+        flash('Ethereum Address already exists')
     else:
         session['user_id'] = new_user['ref'].id()
         flash('Account created successfully', 'success')
