@@ -97,13 +97,13 @@ from faunadb.objects import Ref
 from faunadb.errors import BadRequest, NotFound
 
 config = braintree.Configuration.configure(environment=braintree.Environment.Sandbox,
-        merchant_id="htvcxmv6t6c5bgqx",
-        public_key="c7nbxy7xmq7yzfbr",
-        private_key="d5171358f23837192146d0fe5ba97234"
+        merchant_id="ENTER MERCHANT ID",
+        public_key="ENTER PUBLIC KEY",
+        private_key="ENTER PRIVATE KEY"
 )
 
 gateway = braintree.BraintreeGateway(config)
-client = FaunaClient(secret="fnAEflNSoFAAQ0DqKRR3lLxOKA53IcVSdw2WL8un",domain="db.us.fauna.com")
+client = FaunaClient(secret="ENTER FAUNADB SECRET KEY",domain="db.us.fauna.com")
 
 # from dotenv import load_dotenv
 # load_dotenv('.env')
