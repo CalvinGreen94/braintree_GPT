@@ -1,8 +1,6 @@
 # import numpy as np
 from flask import Flask, session, abort, request, jsonify, render_template, redirect, url_for, flash, redirect
-# import pyttsx3
-# import datetime
-# import wolframalpha
+
 import os
 # import wikipedia
 import datetime
@@ -11,43 +9,15 @@ import json
 from urllib.parse import urlparse
 # from uuid import uuid4
 from flask_cors import CORS
-# from faunadb import query as q
-# from faunadb.client import FaunaClient
-# from faunadb.objects import Ref
-# from faunadb.errors import BadRequest, NotFound
-# Part 1 - Building a Blockchain
-# from web3 import Web3
-# from web3 import middleware
-# from web3.middleware import geth_poa_middleware
-# from tronpy import Tron, Contract
-# from tronpy.keys import PrivateKey
-# import pickle
-# import pandas as pd
-# from sklearn.preprocessing import MinMaxScaler as mini
-# import os
-# import stripe
-# import time
-# # import datetime
-# import bs4
-# import urllib.request
+
 import requests
-# from urllib.request import urlopen
-# from bs4 import BeautifulSoup as soup
-# import random
+
 import asyncio
 # from twilio.base.exceptions import TwilioRestException
 # from authy.api import AuthyApiClient
 from flask_bootstrap import Bootstrap
 import openai
-# import shutil
-# from twilio.rest import Client
-# from clint.textui import progress
-# from ecapture import ecapture as ec
-# from espeakng import ESpeakNG
-# import wave
-# import json
-# import pyaudio
-# import StringIO
+
 import os
 # from os.path import join, dirname
 # from dotenv import load_dotenv
