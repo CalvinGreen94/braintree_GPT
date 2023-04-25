@@ -38,7 +38,7 @@ contract YappChatGPT is ERC20, ERC20Burnable,Ownable,Pausable, ReentrancyGuard,E
 
     uint256 public s_maxSupply = 55555555 * 10 ** uint256(decimals());
     // Rewards per hour. A fraction calculated as x/10.000.000 to get the percentage
-    uint256 public rewardsPerHour =  700000000000000000; // 0.05/hr 
+    uint256 public rewardsPerHour =  700000000000000000; // 0.7/hr 
     // Minimum amount to stake
     uint256 public minStake = 1111;
 
